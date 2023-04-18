@@ -5,7 +5,6 @@ import { Career } from './components/career'
 import { Resume } from './components/resume'
 
 function App() {
-
   return (
     <div>
       <Header />
