@@ -8,7 +8,7 @@ export function Presentation() {
                 <button>INSCREVA-SE</button>
 
                 <p className='scroolDown'>Scroll down</p>
-                <CaretDown size={30} color="#ED145B" />
+                <CaretDown size={30} className='icon' />
         </div>
     )
 }

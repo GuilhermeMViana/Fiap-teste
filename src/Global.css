@@ -26,4 +26,9 @@ body, input, textarea, button {
     padding: 0;
     box-sizing: border-box;
     font-family: "GothamHTF", sans-serif;
+    background-color: var(--black);
+}
+
+#carrer {
+    max-width: 960px;
 }

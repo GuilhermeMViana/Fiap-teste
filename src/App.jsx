@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-      <Header />
+      <Header careerLink=".sides"/>
       <Presentation />
       <Career />
     </div>
