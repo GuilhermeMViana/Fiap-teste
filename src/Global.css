@@ -1,0 +1,28 @@
+:root {
+
+    --white: #fff;
+
+    --gray-100: #91A3AD;
+    --gray-300: #616D72;
+    
+    --pink: #ED145B;
+
+}
+
+@font-face {
+    font-family: "GothamHTF";
+    src: url('../public/fonts/GothamHTF-Bold.otf') format("opentype");
+    src: url('../public/fonts/GothamHTF-Book.otf') format("opentype");
+    src: url('../public/fonts/GothamHTF-Book.otf') format("opentype");
+};
+
+body, input, textarea, button {
+    font-family: 'roboto', sans-serif;
+    font-size: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
