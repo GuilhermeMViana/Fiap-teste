@@ -1,0 +1,14 @@
+section {
+    color: var(--pink);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accordion {
+    width: 50%;
+    background: var(--black);
+    border: 1px solid var(--gray-100);
+    padding: 1.563rem;
+    color: var(--gray-100);
+}
