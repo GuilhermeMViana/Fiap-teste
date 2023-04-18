@@ -1,5 +1,5 @@
 :root {
-
+    --black: #000;
     --white: #fff;
 
     --gray-100: #91A3AD;
@@ -17,7 +17,7 @@
 };
 
 body, input, textarea, button {
-    font-family: 'roboto', sans-serif;
+    font-family: "GothamHTF", sans-serif;
     font-size: 1rem;
 }
 
@@ -25,4 +25,5 @@ body, input, textarea, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "GothamHTF", sans-serif;
 }

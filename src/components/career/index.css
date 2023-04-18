@@ -1,0 +1,44 @@
+.sides {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    background: var(--black);
+    margin: 0 auto;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    gap: 2.5rem;
+    margin-left: 5rem;
+}
+
+.left h1 {
+    color: var(--gray-100);
+    font-size: 3.125rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.left p {
+    border-right: 1px solid var(--gray-300);
+    color: var(--gray-100);
+    margin-right: 6.125rem;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    margin-right: 5rem;
+}
+
+.right h3 {
+    color: var(--pink);
+    font-family: "GothamHTF";
+}
