@@ -14,7 +14,6 @@ export function Resume() {
                         <p> Nessa disciplina você terá toda a base do desenvolvimento lógico para se iniciar como desenvolvedor web. Aprenderá criação de formulários em ambiente WEB, utilizando JS. Servidores de aplicação, servidores web e HTTP server. </p>
                  </details>
             </div>
-            
         </section>
     )
 }

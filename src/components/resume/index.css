@@ -3,12 +3,33 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    height: 100vh;
+    width: 100%;
 }
 
 .accordion {
     width: 50%;
     background: var(--black);
     border: 1px solid var(--gray-100);
-    padding: 1.563rem;
+    padding: 1rem;
     color: var(--gray-100);
+
+    
+}
+
+summary {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.563rem;
+}
+
+summary::after {
+    content: '⨁';
+    color: var(--pink);
+    font-size: 1.563rem;
 }

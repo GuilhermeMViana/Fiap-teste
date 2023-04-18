@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     margin: 50px auto;
+    height: 100vh;
+    width: 100vw;
   }
   
   /* Style the left side */
@@ -59,4 +61,4 @@
     content: "\2013"; 
     margin-right: 5px;
   }
-  
+    
