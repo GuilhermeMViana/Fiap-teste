@@ -5,7 +5,7 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 <p align="center">
-  <img alt="projeto página FIAP" src=".github/preview.png" width="100%">
+  <img alt="projeto página FIAP" src=".github/Captura de tela de 2023-04-19 02-20-38.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
