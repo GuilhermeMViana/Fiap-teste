@@ -1,4 +1,6 @@
 import './Global.css'
+import './App.css'
+
 import { Course } from './components/course'
 import { Classes } from './components/footer'
 import { Header } from './components/header/'

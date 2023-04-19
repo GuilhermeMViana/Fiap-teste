@@ -24,10 +24,9 @@ header nav {
     font-family: 'GhothamHTF', Arial, sans-serif;
 }
 
-button {
+.teste button {
     padding: 0.875rem 1.875rem;
     cursor: pointer;
-
     border: 2px solid var(--pink);
     background: transparent;
 
@@ -40,6 +39,7 @@ button {
     font-weight: 500;
     
     transition: 0.2s;
+
 }
 
 button:hover {

@@ -1,6 +1,7 @@
 import fiapLogo from '../../../public/images/logo fiap.png'
 
 import './index.css'
+
 export function Header() {
     return (
         <header>
@@ -11,7 +12,10 @@ export function Header() {
                     <a href="#resume">MATRIZ CURRICULAR</a>
                     <a href="#classes">TURMAS</a>
                 </div>
-                <button>INSCREVA-SE</button>
+                <div>
+                    <button>INSCREVA-SE</button>
+                </div>
+                
             </nav>
         </header>
     )
