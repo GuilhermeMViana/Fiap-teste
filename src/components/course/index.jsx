@@ -1,8 +1,8 @@
 import "./index.css";
 
-export function Career() {
+export function Course() {
   return (
-    <section id="carrer" class="sides">
+    <section id="course" class="sides">
       <div class="left">
         <h1>O CURSO</h1>
         <p>

@@ -1,16 +1,18 @@
 import './Global.css'
-import { Header } from './components/header'
-import { Presentation } from './components/presentation'
-import { Career } from './components/career'
-import { Resume } from './components/resume'
+import { Course } from './components/course'
+import { Classes } from './components/footer'
+import { Header } from './components/header/'
+import { Presentation } from './components/presentation/'
+import { Resume } from './components/resume/'
 
 function App() {
   return (
     <div>
       <Header />
       <Presentation />
-      <Career />
+      <Course />
       <Resume />
+      <Classes />
     </div>
   )
 }

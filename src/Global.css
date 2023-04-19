@@ -4,6 +4,7 @@
 
     --gray-100: #91A3AD;
     --gray-300: #616D72;
+    --gray-500: #32383B;
     
     --pink: #ED145B;
 
@@ -29,6 +30,12 @@ body, input, textarea, button {
     background-color: var(--black);
 }
 
-#carrer {
+#course {
+    max-width: 960px;
+}
+#resume {
+    max-width: 960px;
+}
+#classes {
     max-width: 960px;
 }

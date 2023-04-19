@@ -3,7 +3,7 @@ import './index.css'
 export function Resume() {
     return(
         <section>
-            <div className='introduction'>
+            <div id='resume' className='introduction'>
                 <h1>MATRIZ CURRICULAR</h1>
                 <h2>2.000 HORAS/AULA</h2>
             </div>

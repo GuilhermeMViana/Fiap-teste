@@ -1,15 +1,15 @@
 import fiapLogo from '../../../public/images/logo fiap.png'
 
 import './index.css'
-export function Header(carrerLink) {
+export function Header() {
     return (
         <header>
             <nav>
                 <img src={fiapLogo} alt="Logo da instituição Fiap" />
                 <div className='links'>
-                    <a href="#carrer">O CURSO</a>
-                    <a href="#">MATRIZ CURRICULAR</a>
-                    <a href="#">TURMAS</a>
+                    <a href="#course">O CURSO</a>
+                    <a href="#resume">MATRIZ CURRICULAR</a>
+                    <a href="#classes">TURMAS</a>
                 </div>
                 <button>INSCREVA-SE</button>
             </nav>
