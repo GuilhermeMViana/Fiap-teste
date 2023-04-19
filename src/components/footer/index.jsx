@@ -6,13 +6,14 @@ export function Classes() {
             <div>
                 <h1>TURMAS 2022</h1>
             </div>
+            <div className='redLine'><span>-</span></div>
             <div>
                 <table>
                     <tr>
                         <th>campus</th>
                         <th>Duração</th>
                         <th>Dias</th>
-                        <th>Dias</th>
+                        <th>Horário</th>
                         <th>mensalidade</th>
                     </tr>
                     <tr>
@@ -30,7 +31,7 @@ export function Classes() {
                         <td>R$ 1.295,00* </td>
                     </tr>
                 </table>
-                <span>* VALOR PARA 2022 NO PLANO ESTENDIDO.</span>
+                <div className='obs'>* VALOR PARA 2022 NO PLANO ESTENDIDO.</div>
             </div>
             <button>INSCREVA-SE</button>
         </footer>
