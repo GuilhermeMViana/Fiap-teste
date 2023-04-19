@@ -56,3 +56,28 @@
   margin-right: 5px;
 }
 
+@media (max-width: 768px) {
+  .sides {
+    flex-direction: column;
+  }
+  .left h1 {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .left p {
+    font-size: 0.7rem;
+    border: none;
+    text-align: center;
+  }
+
+  .right h2 {
+    font-size: 0.875rem;
+    text-align: center;
+  }
+
+  .right ul {
+    font-size: 0.8rem;
+    text-align: left;
+  }
+}

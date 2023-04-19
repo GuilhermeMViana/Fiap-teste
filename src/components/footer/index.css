@@ -29,7 +29,11 @@ table, th, td {
 
 table {
     width: 100%;
-    
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
 }
 
 .campus {
@@ -68,7 +72,7 @@ td {
     margin-bottom: 4.3rem;
 }
 
-button {
+.footerButton button {
     padding: 0.875rem 1.875rem;
     cursor: pointer;
 
@@ -90,3 +94,40 @@ button:hover {
     color: var(--white);
     background: var(--pink);
 }
+
+.overflow {
+    overflow-x:auto;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table th {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    font-size: 0.78em;
+    }
+    
+    table tr {
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+}  

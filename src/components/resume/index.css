@@ -80,3 +80,49 @@ details p span {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        max-width: 720px;
+    }
+    
+    .introduction {
+        margin-left: 0;
+        position: block;
+    }
+
+    .introduction h1 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .introduction h2 {
+        margin: 0;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    details summary {
+        font-size: 0.9rem;
+    }
+    summary::after {
+        font-size: 1em
+    }
+
+    details[open] summary::after {
+        font-size: 1.2em;
+    }
+
+    details p span{
+        font-size: 0.875rem;
+     }
+
+    details p{
+       font-size: 0.8rem;
+    }
+    
+}
+    

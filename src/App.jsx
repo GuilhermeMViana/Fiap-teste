@@ -1,5 +1,4 @@
-import './Global.css'
-import './App.css'
+import './global.css'
 
 import { Course } from './components/course'
 import { Classes } from './components/footer'

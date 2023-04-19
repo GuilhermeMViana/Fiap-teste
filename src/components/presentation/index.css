@@ -67,3 +67,11 @@
     color: var(--pink);
     background: transparent;
 } 
+
+@media (max-width: 768px) {
+    .content p , .content h1{
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+}
