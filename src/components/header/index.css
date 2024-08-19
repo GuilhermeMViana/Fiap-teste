@@ -24,6 +24,13 @@ header nav {
     font-family: 'GhothamHTF', Arial, sans-serif;
 }
 
+.links a:hover {
+    color: var(--pink);
+    transform: scale(1.25);
+    transition: 0.2s;
+}
+
+
 .navBarButton button {
     padding: 0.875rem 1.875rem;
     cursor: pointer;
